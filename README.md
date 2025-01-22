@@ -13,7 +13,7 @@ Table of Contents
 4. Usage
 
 5. License
-
+-----
 1. Overview
 This program simulates a full-featured BINGO board for use during live events. It supports two game modes:
 Manual Mode: Allows the user to input drawn ball numbers manually.
