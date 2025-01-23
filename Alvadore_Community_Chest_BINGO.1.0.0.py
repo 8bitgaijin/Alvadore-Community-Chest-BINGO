@@ -452,7 +452,7 @@ def render_text_with_shadow(text, font, color, shadow_color, x, y, shadow_offset
         text_rect = text_surface.get_rect(topleft=(x, y))
         screen.blit(text_surface, text_rect)
         
-        logger.info(f"Rendered text '{text}' with shadow at ({x}, {y}).")
+        # logger.info(f"Rendered text '{text}' with shadow at ({x}, {y}).")
     except Exception as e:
         logger.error(f"Failed to render text '{text}': {e}")
 
